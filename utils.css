@@ -1,0 +1,16 @@
+.color-label{
+    color: white;
+    font-size: 1.5rem;
+    /* padding-left: 20px; */
+    margin-left: -216px;
+    padding: 8px;
+}
+
+.input{
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    background-color: #9C9C9C;
+
+}

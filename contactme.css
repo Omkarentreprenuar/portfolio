@@ -1,0 +1,77 @@
+.contact-form{
+    height:100vh;
+}
+
+.heading{
+    color: white;
+    font-size: 3rem;
+}
+
+.heading::first-letter{
+    color: green;
+    font-size: 4rem;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 461px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding:20px 20px;
+}
+
+.email{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    margin-left: -262px;
+    margin-top: 13px;
+}
+
+.terms{
+    display: flex;
+}
+
+.terms-conditions{
+    color: white;
+    font-size: 1rem;
+    padding-left: 12px;
+    font-family: "poppins",sans-serif;
+    cursor: pointer;
+}
+
+.mobile{
+    padding-top: 34px;
+}
+
+.submit{
+    padding:5px;
+    margin: 20px 20px;
+    border: none;
+    border-end-start-radius: 6px;
+    border-start-end-radius: 6px;
+    font-size: 1rem;
+    background-color: #9C9C9C;
+    font-weight: 500;
+    font-family: "poppins",sans-serif;
+}
+
+.submit:hover{
+    background-color: green;
+    cursor:pointer;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+    font-size: 1rem;
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: white;
+  }
+  
